@@ -22,7 +22,7 @@ The data were first loaded and preprocessed, ensuring proper data types and inde
 
 The U.S.'s nuclear electric energy production was shown to have increased greatly from 1973 to about 2000, when it then leveled off and remained stable up until the present day. 
 
-![Nuclear Production Line Plot](images/nuclear line plot.png)
+![Nuclear Production Line Plot](images/nuclear%20line%20plot.png)
 
 The data was shown to be stationary, autocorrelated, and non-seasonal. 
 
