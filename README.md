@@ -20,6 +20,10 @@ The data were first loaded and preprocessed, ensuring proper data types and inde
 
 ## Results
 
-The U.S.'s nuclear electric energy production was shown to have increased greatly from 1973 to about 2000, when it then leveled off and remained stable up until the present day. The data was shown to be stationary, autocorrelated, and non-seasonal. 
+The U.S.'s nuclear electric energy production was shown to have increased greatly from 1973 to about 2000, when it then leveled off and remained stable up until the present day. 
+
+![Nuclear Production Line Plot](images/nuclear-line-plot)
+
+The data was shown to be stationary, autocorrelated, and non-seasonal. 
 
 The ARIMA(3,1,5)(0,0,0)[0] model was able to effectively forecast nuclear energy production with a low RMSE of 0.04, indicating good prediction accuracy. 
