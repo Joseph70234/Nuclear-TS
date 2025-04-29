@@ -16,7 +16,15 @@ This project aims to forecast nuclear energy production using time series analys
 6. Run the notebook!
 
 ## Methods
-The data were first loaded and preprocessed, ensuring proper data types and indexing. Then preliminary visualizations were created. Next, time series analysis using rolling mean and standard deviation was conducted, followed by ADF and autocorrelation testing as well as trend decomposition. Then, the data were split into train and test sets and time series forecasting was done using ARIMA. The ARIMA model was finally evaluated using RMSE.
+The data were first loaded and preprocessed, ensuring proper data types and indexing. Then preliminary visualizations were created. Next, time series analysis using rolling mean and standard deviation was conducted. 
+
+![Nuclear Production Rolling](images/nuclear%20rolling%20mean.png)
+
+This was followed by ADF and autocorrelation testing as well as trend decomposition. Then, the data were split into train and test sets and time series forecasting was done using ARIMA. 
+
+![Nuclear Production TestTrain](images/nuclear%20train%20test.png)
+
+The ARIMA model was finally evaluated using RMSE.
 
 ## Results
 
@@ -26,4 +34,8 @@ The U.S.'s nuclear electric energy production was shown to have increased greatl
 
 The data was shown to be stationary, autocorrelated, and non-seasonal. 
 
+![Nuclear Production Trend Decomp](images/nuclear%20trend%20decomposition.png)
+
 The ARIMA(3,1,5)(0,0,0)[0] model was able to effectively forecast nuclear energy production with a low RMSE of 0.04, indicating good prediction accuracy. 
+
+![Nuclear Production TestTrainPred](images/nuclear%20train%20test%20pred.png)
